@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    //    "moduleResolution": "bundler",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "~/api/*": [
+        "D:/bayun-project/wc-forms/src/api/*"
+      ],
+      "~/app/*": [
+        "D:/bayun-project/wc-forms/src/app/*"
+      ],
+      "~/assets/*": [
+        "D:/bayun-project/wc-forms/src/assets/*"
+      ],
+      "~/component/*": [
+        "D:/bayun-project/wc-forms/src/component/*"
+      ],
+      "~/context/*": [
+        "D:/bayun-project/wc-forms/src/context/*"
+      ],
+      "~/model/*": [
+        "D:/bayun-project/wc-forms/src/model/*"
+      ],
+      "~/utils/*": [
+        "D:/bayun-project/wc-forms/src/utils/*"
+      ],
+      "~/src/*": [
+        "D:/bayun-project/wc-forms/src/*"
+      ],
+      "~/rest/*": [
+        "D:/bayun-project/wc-forms/src/rest/*"
+      ],
+      "~/services/*": [
+        "D:/bayun-project/wc-forms/src/services/*"
+      ],
+      "~/pages/*": [
+        "D:/bayun-project/wc-forms/src/pages/*"
+      ]
+    },
+    /* Linting */
+    "strict": true,
+    //    "noUnusedLocals": true,
+    //    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

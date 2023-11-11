@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply min-h-screen font-main;
+}
+
+.btn-blue {
+  @apply btn text-sm normal-case min-h-0 h-min py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white
+}
+
+.btn-white {
+  @apply btn bg-white hover:bg-gray-200 text-black
+}
+
+.box {
+  @apply px-6 py-4 rounded-2xl border border-gray-100 bg-white
+}
